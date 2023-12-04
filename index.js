@@ -13,7 +13,7 @@ app.use(express.json());
 mongoose
   .connect("mongodb://localhost:27017/SCOD")
   .then(() => console.log("Connected to the database..."))
-  .catch((err) => console.error(err, 'Error'));
+  .catch((err) => console.error(err, 'Erro'));
 
 
   
